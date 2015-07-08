@@ -1,0 +1,145 @@
+.outer{
+  width:50%;
+  padding: 15px 15px 15px 15px;
+  min-width:155px;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center ;
+  background-color: #F8F4D7;
+  box-shadow: 0 3px 6px -1px rgba(0,0,0,0.75); 
+  clear: both;
+}
+.inner {
+	padding: 17px 1px 17px 1px;
+  width:100%;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center ;
+  background-color: #F8ECC2;
+  box-shadow: 0 3px 6px -1px rgba(0,0,0,0.75);
+ /* border: 2px solid #EB3A11; */
+}
+#namefield {
+	width: 80%;
+	min-width: 130px;
+	max-width: 450px;
+}
+.info
+{
+	width: 80%;
+	min-width: 130px;
+	max-width: 450px;
+	margin: auto;
+}
+.head{
+  height:50px; 
+  width:100%;
+  min-width:200px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-color: #EDEDED;
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,0.75);
+}
+.spacer{
+	height: 25px;
+	float: left;
+	margin:auto;
+}
+.name{
+padding: 15px 15px 15px 15px;
+margin: 0em;
+float: left;
+border-right: 1px dotted #111720;
+color: #111720;
+font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+}
+.menu
+{
+}
+.title
+{
+	 font-size: 1.5em;
+}
+a{
+text-decoration: none;
+}
+.hlink:link {
+    color: #111720;
+}
+.hlink:visited {
+    color: #111720;
+}
+
+.hlink:hover {
+    color: #757575;
+}
+
+.hlink:active {
+     color: #111720;
+}
+.clink:link {
+    color: #111720;
+}
+.clink:visited {
+    color: #111720;
+}
+
+.clink:hover {
+    color: #757575;
+}
+
+.clink:active {
+     color: #111720;
+}
+table{
+  margin-left: auto ;
+  margin-right: auto ;
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+}
+body
+{
+	background-color: #F1E3E3;
+}
+.button {
+   max-width: 150px;
+   /*border-top: 1px solid #FC7474;*/
+   background: #EDEDED;
+   padding: 7.5px 15px;
+   border-radius: 2px;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   color: #545454;
+   font-size: 1em;
+   text-decoration: none;
+   vertical-align: middle;
+   margin: auto;
+   }
+ .button:hover {
+  /* border-top-color: #FC7474;*/
+   background: #DBDBDB;
+   color: #545454;
+   }
+ .button:active {
+   /*border-top-color: #FC7474; */
+   background: #CFCFCF;
+   }
+.wrapper {
+min-height: 100%;
+}
+.main{
+	overflow:auto;
+	padding-bottom: 50px;
+}
+.footer{
+	padding: 22px 0px 0px 15px;
+	margin-top: -65px; /* negative value of footer height */
+	height: 43px;
+	clear:both;
+	background-color: #EDEDED;
+	box-shadow: 0px -5px 6px -6px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,355 @@
+@import "compass/layout/sticky-footer";
+
+@mixin x-transform($deg)
+{
+	-moz-transform:rotate($deg);  
+	-webkit-transform:rotate($deg);  
+	-o-transform:rotate($deg);  
+	-ms-transform:rotate($deg);
+	transform: rotate($deg); 
+}
+
+nav {
+	li.name
+	{
+		text-align: left !important;
+	}
+	img{
+		height: $topbar-height;
+		padding: 7px;
+	}
+	.button{
+		line-height: $topbar-height - 28;
+		text-align: center;
+		padding-top: ($topbar-height / 2)
+	}
+}
+
+#rev_logo
+{
+	max-height: 50px;
+	float: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav.top-bar
+{
+	border-bottom: 5px solid $ghost !important;
+}
+.slider-gallery
+{
+	img
+	{
+		margin: auto;
+	}
+}
+
+#rovimat-footer
+{
+	background-color: $oil;
+	color: $ghost;
+	text-align: center;
+	vertical-align: top;
+	padding: 15px;
+	img
+	{
+		height: 45px;
+	}
+}
+
+.home-square-pic
+{
+	max-height: 410px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-element
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-iframe
+{
+	display: block;
+	text-align: center;
+}
+
+.center-inner
+{
+	display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.max-width
+{
+	width:100%;
+}
+
+li.divider
+{
+	border-right: 5px solid $ghost !important;
+}
+
+#maincontent 
+{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+//Review box button height and padding
+.rp
+{
+	height: 5em !important;
+	padding-top: 1.8em;
+}
+.rp-small
+{
+	height: 3em !important;
+	padding-top: .9em;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+//Simple Triangle Style
+.arrow-left-small
+{
+	width: 0;
+	height: 0;
+	border-top: 1.5em solid $white;
+	border-right: 3em * 0.886 solid $primary-color;
+	border-bottom: 1.5em solid $white; 
+	float: left;
+}
+
+.arrow-right-small 
+{
+	width: 0;
+	height: 0;
+	border-top: 1.5em solid $white;
+	border-left: 3em * 0.886 solid $primary-color;
+	border-bottom: 1.5em solid $white;
+	float: right;
+}
+.arrow-left 
+{
+	width: 0;
+	height: 0;
+	border-top: 2.5em solid $white;
+	border-right: 5em * 0.886 solid $primary-color;
+	border-bottom: 2.5em solid $white; 
+	float: left;
+}
+
+.arrow-right 
+{
+	width: 0;
+	height: 0;
+	border-top: 2.5em solid $white;
+	border-left: 5em * 0.886 solid $primary-color;
+	border-bottom: 2.5em solid $white;
+	float: right;
+}
+*/
+
+//Chevron Style
+.arrow-left-small::before
+{
+	border-style: solid;
+	border-color: $primary-color;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 3em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	vertical-align: top;
+	width: 3em;
+	left: 0;
+	margin-left: 0.75em;
+	cursor: pointer;
+	cursor: hand;
+
+	@include x-transform(-45deg);
+	@include x-transform(-135deg);
+}
+
+
+.arrow-right-small::before 
+{
+	border-style: solid;
+	border-color: $primary-color;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 3em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	vertical-align: top;
+	width: 3em;
+	left: 0;
+	margin-right: 0.75em;
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+
+	@include x-transform(-45deg);
+	@include x-transform(45deg);
+
+}
+.arrow-left::before
+{
+	border-style: solid;
+	border-color: $primary-color;
+	border-width: 0.5em 0.5em 0 0;
+	content: '';
+	display: inline-block;
+	height: 5em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	vertical-align: top;
+	width: 5em;
+	left: 0;
+	margin-left: 0.75em;
+	cursor: pointer;
+	cursor: hand;
+
+	@include x-transform(-45deg);
+	@include x-transform(-135deg);
+}
+
+.arrow-right::before 
+{
+	border-style: solid;
+	border-color: $primary-color;
+	border-width: 0.5em 0.5em 0 0;
+	content: '';
+	display: inline-block;
+	height: 5em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	vertical-align: top;
+	width: 5em;
+	left: 0;	
+	margin-right: 0.75em;
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+
+	@include x-transform(-45deg);
+	@include x-transform(45deg);
+}
+
+.rev-divider
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* --- Gallery image height fix --- */
+
+// iPhone/Mobile ---------------------
+@media screen and (min-height: 480px) 
+and (max-height: 767px)
+{
+	.slider-gallery
+	{
+		img
+		{
+			max-height: 400px;
+		}
+	}
+}
+
+// iPads/Small Screens ---------------
+@media screen and (min-height: 768px) 
+and (max-height: 1024px)
+{
+	.slider-gallery
+	{
+		img
+		{
+			max-height: 550px;
+		}
+	}
+}
+
+// Desktops and laptops --------------
+@media screen and (min-height: 1025px)
+and (max-height: 1440px)
+{
+	.slider-gallery
+	{
+		img
+		{
+			max-height: 700px;
+		}
+	}
+}
+
+// Large screens ---------------------
+@media screen and (min-height: 1441px)
+and (max-height: 1700px)
+{
+	.slider-gallery
+	{
+		img
+		{
+			max-height: 1100px;
+		}
+	}
+}
+
+// Huge screens ----------------------
+@media screen and (min-height: 1701px)
+and (max-height: 2300px)
+{
+	.slider-gallery
+	{
+		img
+		{
+			max-height: 1400px;
+		}
+	}
+}
+
+/* ----- End Image Height Fix ----- */
+body
+{
+	#maincontent
+	{
+		p
+		{
+			text-align: justify;
+		}
+	}
+}
+
+.hammertime
+{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.homestars-pane
+{
+	outline: 0.5em outset $primary-color;
+	margin: 0.5em;
+}
+
+.right-element
+{
+	display: block;
+    margin-left: auto;
+    margin-right: 0;
+}

@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toronto Area General Contractor | Rovimat Construction</title>
+  <meta name="Description" content="A trusted Toronto-Area general contractor with over 10 years of experience, we've done everything from small renovations to major whole-home or commercial projects. Our builds are superior quality and many of our clients rave about our &ldquo;Magazine-Quality&rdquo; workmanship. Give your next project the Rovimat Touch.">
+  <meta name="Keywords" content="General Contracting, Contractor, Construction, Kitchen, Bathroom, Renovations, Building, Decks, Fence, Landscaping, Painting, Electrical, Whole home, Modern ">
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="//use.typekit.net/ysj7peo.js"></script>
+  <script src="js/reviews.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <a href="index.html"><img src="img/logo_black_glow.png" /></a>
+      </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><span>Menu</span></a>
+      </li>
+    </ul>
+    <section class="top-bar-section"> <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+        <li class="active">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="divider"></li>
+        <li class="">
+          <a href="about.html">About</a>
+        </li>
+        <li class="divider"></li>
+        <li class="">
+          <a href="getquote.html">Get a Quote</a>
+        </li>
+        <li class="divider"></li>
+        <li class="">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="divider"></li>
+        <li class="">
+          <a href="socialmedia.html">Social Media</a>
+        </li>
+        <li class="divider"></li>
+          <li class="has-form"> <a href="http://homestars.com/companies/2853805-rovimat-construction-ltd/reviews/new?site=rovimat-construction-ltd" class="button">Write a Review</a> </li>
+          <li class="divider show-for-small-only"></li>
+          <li class="has-form show-for-small-only"> <a href="tel:+18444047684" class="button">1-844-404-ROVI</a>
+<li class="divider show-for-small-only"></li>
+<li class="has-form show-for-small-only"> <a href="tel:+16478082509" class="button">647-808-2509</a> </li>
+      </ul> 
+    </section>
+  </nav>
+  
+  <div id="maincontent">
+    <div class="row">
+    	<div class="medium-6 columns show-for-small-only" data-equalizer>
+    		<img class="center-element" src="img/sad.png"/>
+    	</div> 
+    	<div class="medium-6 columns show-for-medium-up" data-equalizer>
+    		<img class="right-element" src="img/sad.png"/>
+    	</div>
+    	<div class="medium-6 columns">
+    		<div class="row">
+		    	<div class="medium-8 columns text-center" data-equalizer>
+		    		<div class="show-for-medium-up"><br /><br /><br /><br /></div>
+		    		<h3>406 - Not Acceptable</h3>
+		    		<span>This is a technical error.<br /> We're sorry about that.<br /><a href="/index.html">Please click here to go to Home</a></span>
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    </div>
+  </div>
+    <div id="rovimat-footer">
+    <div class="row">
+      <div class="small-12 columns">
+        <p>© Rovimat Construction Ltd. 2015 <br /> Affiliated Companies:</p>
+      </div>
+      <div class="medium-3 small-6 columns"> 
+        <a href="http://rovimat.homestars.com"><img src="img/logos/homestars.png" title="Review us on Homestars"></a>
+      </div>
+      <div class="medium-3 columns hide-for-small-only">
+        <a href="http://www.houzz.com/pro/rovimatconstructionltd/rovimat-construction-ltd"><img src="img/logos/houzz_logo_small.png" title="Review us on Houzz"></a>
+      </div>
+      <div class="medium-3 columns hide-for-small-only"> 
+        <a href="http://www.skykitchen.ca/"><img src="img/logos/skykitchen-small.png"></a>
+      </div>
+      <div class="medium-3 small-6 columns">
+        <a href="https://trustedpros.ca/company/rovimat-construction-ltd"><img src="img/logos/trustedpros.png" title="Rate us on Trusted Pros"></a>
+      </div>
+      <div class="small-6 columns show-for-small-only"> 
+        <br />
+        <a href="http://www.skykitchen.ca/"><img src="img/logos/skykitchen-small.png"></a>
+      </div>
+       <div class="small-6 columns show-for-small-only">
+       <br />
+        <a href="http://www.houzz.com/pro/rovimatconstructionltd/rovimat-construction-ltd"><img src="img/logos/houzz_logo_small.png" title="Review us on Houzz"></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

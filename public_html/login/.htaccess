@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webmail\.superfinestudios\.co$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webmail\.superfinestudios\.co$
+RewriteRule ^/?$ "https\:\/\/login\.microsoftonline\.com\/" [R=301,L]
+
